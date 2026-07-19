@@ -1,19 +1,18 @@
 # G4F AI Studio
 
-Backend Flask + Frontend HTML untuk menggunakan G4F API dengan fitur Proxy Rotation otomatis.
+Simple AI Studio using official G4F client.
 
-## Fitur
-- Chat streaming
-- Text to Image
-- Proxy Rotation otomatis
-- API Key via environment variable (aman)
+## Features
+- Chat with GPT models
+- Image generation
+- Clean and simple interface
 
-## Instalasi
+## Run
 
-1. Clone repo
-2. `pip install flask requests python-dotenv`
-3. `cp .env.example .env` dan isi API key
-4. `python app.py`
-5. Buka `index.html` di browser
+```bash
+pip install flask g4f python-dotenv
+cp .env.example .env
+python app.py
+```
 
-Repo ini sudah disinkronkan antara backend dan frontend.
+Then open `index.html` in browser.
