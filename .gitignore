@@ -1,0 +1,5 @@
+.env
+__pycache__/
+proxy.json
+*.log
+venv/
